@@ -1,0 +1,11 @@
+[package]
+name = "teemo"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+byteorder = "1.5.0"
+rusqlite = { version = "0.31.0", features = ["bundled"] }
+windows = { version = "0.56.0", features = ["Win32_Networking_WinSock", "Win32_System_IO", "Win32_NetworkManagement_IpHelper", "Win32_System_Threading", "Win32_Security"] }
